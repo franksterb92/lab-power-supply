@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Touch:CAP1206-x-SL U13
+U 1 1 5FC79D3A
+P 6500 3100
+F 0 "U13" H 6475 4275 50  0000 C CNN
+F 1 "CAP1206-x-SL" H 6500 4100 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 4050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00001567B.pdf" H 6450 3100 50  0001 C CNN
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J9
+U 1 1 5FC7A734
+P 8575 2900
+F 0 "J9" H 8547 2782 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8547 2873 50  0000 R CNN
+F 2 "" H 8575 2900 50  0001 C CNN
+F 3 "~" H 8575 2900 50  0001 C CNN
+	1    8575 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW1
+U 1 1 5FC7B217
+P 4375 2575
+F 0 "SW1" H 4317 2444 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 2425 60  0001 C CNN
+F 2 "" H 4375 2575 60  0001 C CNN
+F 3 "" H 4375 2575 60  0001 C CNN
+	1    4375 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW3
+U 1 1 5FC7BCE7
+P 4375 2800
+F 0 "SW3" H 4317 2669 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 2650 60  0001 C CNN
+F 2 "" H 4375 2800 60  0001 C CNN
+F 3 "" H 4375 2800 60  0001 C CNN
+	1    4375 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW4
+U 1 1 5FC7BF0C
+P 4375 3000
+F 0 "SW4" H 4317 2869 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 2850 60  0001 C CNN
+F 2 "" H 4375 3000 60  0001 C CNN
+F 3 "" H 4375 3000 60  0001 C CNN
+	1    4375 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW5
+U 1 1 5FC7C170
+P 4375 3250
+F 0 "SW5" H 4317 3119 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 3100 60  0001 C CNN
+F 2 "" H 4375 3250 60  0001 C CNN
+F 3 "" H 4375 3250 60  0001 C CNN
+	1    4375 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW6
+U 1 1 5FC7C4B8
+P 4375 3500
+F 0 "SW6" H 4317 3369 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 3350 60  0001 C CNN
+F 2 "" H 4375 3500 60  0001 C CNN
+F 3 "" H 4375 3500 60  0001 C CNN
+	1    4375 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Schematic_Symbols:ESC_Pad_A SW7
+U 1 1 5FC7C751
+P 4375 3725
+F 0 "SW7" H 4317 3594 60  0000 C CNN
+F 1 "ESC_Pad_A" H 4375 3575 60  0001 C CNN
+F 2 "" H 4375 3725 60  0001 C CNN
+F 3 "" H 4375 3725 60  0001 C CNN
+	1    4375 3725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4525 2575 5900 2575
+Wire Wire Line
+	5900 2575 5900 2800
+Wire Wire Line
+	4525 2800 5825 2800
+Wire Wire Line
+	5825 2800 5825 2900
+Wire Wire Line
+	5825 2900 5900 2900
+Wire Wire Line
+	4525 3000 5900 3000
+Wire Wire Line
+	4525 3725 5900 3725
+Wire Wire Line
+	5900 3725 5900 3300
+Wire Wire Line
+	4525 3500 5850 3500
+Wire Wire Line
+	5850 3500 5850 3200
+Wire Wire Line
+	5850 3200 5900 3200
+Wire Wire Line
+	4525 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 3100
+Wire Wire Line
+	5800 3100 5900 3100
+$Comp
+L power:+5V #PWR027
+U 1 1 5FC7E64D
+P 8325 2575
+F 0 "#PWR027" H 8325 2425 50  0001 C CNN
+F 1 "+5V" H 8340 2748 50  0000 C CNN
+F 2 "" H 8325 2575 50  0001 C CNN
+F 3 "" H 8325 2575 50  0001 C CNN
+	1    8325 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 2575 8325 2700
+Wire Wire Line
+	8325 2700 8375 2700
+$Comp
+L power:GND #PWR028
+U 1 1 5FC7F209
+P 8325 3125
+F 0 "#PWR028" H 8325 2875 50  0001 C CNN
+F 1 "GND" H 8330 2952 50  0000 C CNN
+F 2 "" H 8325 3125 50  0001 C CNN
+F 3 "" H 8325 3125 50  0001 C CNN
+	1    8325 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 3125 8325 3000
+Wire Wire Line
+	8325 3000 8375 3000
+Wire Wire Line
+	8375 2800 7100 2800
+Wire Wire Line
+	7100 2800 7100 2900
+Wire Wire Line
+	8375 2900 7150 2900
+Wire Wire Line
+	7150 2900 7150 3000
+Wire Wire Line
+	7150 3000 7100 3000
+$Comp
+L power:+5V #PWR014
+U 1 1 5FC81265
+P 6500 2400
+F 0 "#PWR014" H 6500 2250 50  0001 C CNN
+F 1 "+5V" H 6515 2573 50  0000 C CNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2400 6500 2500
+$Comp
+L power:GND #PWR026
+U 1 1 5FC8203A
+P 6500 3700
+F 0 "#PWR026" H 6500 3450 50  0001 C CNN
+F 1 "GND" H 6505 3527 50  0000 C CNN
+F 2 "" H 6500 3700 50  0001 C CNN
+F 3 "" H 6500 3700 50  0001 C CNN
+	1    6500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3700 6500 3600
+NoConn ~ 7100 3200
+$EndSCHEMATC
